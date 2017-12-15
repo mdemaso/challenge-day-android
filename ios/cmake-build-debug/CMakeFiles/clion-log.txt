@@ -1,0 +1,4 @@
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -D CMAKE_Kotlin_COMPILER=/Users/mdemaso/.konan/kotlin-native-macos-0.4-dev-102/bin/konanc -D CMAKE_Kotlin_CINTEROP=/Users/mdemaso/.konan/kotlin-native-macos-0.4-dev-102/bin/cinterop -G "CodeBlocks - Unix Makefiles" /Users/mdemaso/Documents/GIT/wayfair-kotlin-native-poc/challenge-day-android/ios
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/mdemaso/Documents/GIT/wayfair-kotlin-native-poc/challenge-day-android/ios/cmake-build-debug

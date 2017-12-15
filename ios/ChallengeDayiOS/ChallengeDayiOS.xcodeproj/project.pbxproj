@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD5AEE8C1FE46AA100CD5A26 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5AEE8B1FE46AA100CD5A26 /* AppDelegate.m */; };
+		DD5AEE8F1FE46AA100CD5A26 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5AEE8E1FE46AA100CD5A26 /* ViewController.m */; };
+		DD5AEE921FE46AA100CD5A26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5AEE901FE46AA100CD5A26 /* Main.storyboard */; };
+		DD5AEE941FE46AA100CD5A26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD5AEE931FE46AA100CD5A26 /* Assets.xcassets */; };
+		DD5AEE971FE46AA100CD5A26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5AEE951FE46AA100CD5A26 /* LaunchScreen.storyboard */; };
+		DD5AEE9A1FE46AA100CD5A26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5AEE991FE46AA100CD5A26 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD5AEE871FE46AA100CD5A26 /* ChallengeDayiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChallengeDayiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD5AEE8A1FE46AA100CD5A26 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD5AEE8B1FE46AA100CD5A26 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD5AEE8D1FE46AA100CD5A26 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DD5AEE8E1FE46AA100CD5A26 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD5AEE911FE46AA100CD5A26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD5AEE931FE46AA100CD5A26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD5AEE961FE46AA100CD5A26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD5AEE981FE46AA100CD5A26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD5AEE991FE46AA100CD5A26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD5AEE841FE46AA100CD5A26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD5AEE7E1FE46AA100CD5A26 = {
+			isa = PBXGroup;
+			children = (
+				DD5AEE891FE46AA100CD5A26 /* ChallengeDayiOS */,
+				DD5AEE881FE46AA100CD5A26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD5AEE881FE46AA100CD5A26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD5AEE871FE46AA100CD5A26 /* ChallengeDayiOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD5AEE891FE46AA100CD5A26 /* ChallengeDayiOS */ = {
+			isa = PBXGroup;
+			children = (
+				DD5AEE8A1FE46AA100CD5A26 /* AppDelegate.h */,
+				DD5AEE8B1FE46AA100CD5A26 /* AppDelegate.m */,
+				DD5AEE8D1FE46AA100CD5A26 /* ViewController.h */,
+				DD5AEE8E1FE46AA100CD5A26 /* ViewController.m */,
+				DD5AEE901FE46AA100CD5A26 /* Main.storyboard */,
+				DD5AEE931FE46AA100CD5A26 /* Assets.xcassets */,
+				DD5AEE951FE46AA100CD5A26 /* LaunchScreen.storyboard */,
+				DD5AEE981FE46AA100CD5A26 /* Info.plist */,
+				DD5AEE991FE46AA100CD5A26 /* main.m */,
+			);
+			path = ChallengeDayiOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD5AEE861FE46AA100CD5A26 /* ChallengeDayiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD5AEE9D1FE46AA100CD5A26 /* Build configuration list for PBXNativeTarget "ChallengeDayiOS" */;
+			buildPhases = (
+				DD5AEEA11FE46FBA00CD5A26 /* Remove Original Binary */,
+				DD5AEE831FE46AA100CD5A26 /* Sources */,
+				DD5AEE841FE46AA100CD5A26 /* Frameworks */,
+				DD5AEEA01FE46F3F00CD5A26 /* Build Binary From Kotlin Sources */,
+				DD5AEEA21FE46FE700CD5A26 /* Replace Binary */,
+				DD5AEE851FE46AA100CD5A26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChallengeDayiOS;
+			productName = ChallengeDayiOS;
+			productReference = DD5AEE871FE46AA100CD5A26 /* ChallengeDayiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD5AEE7F1FE46AA100CD5A26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Wayfair;
+				TargetAttributes = {
+					DD5AEE861FE46AA100CD5A26 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DD5AEE821FE46AA100CD5A26 /* Build configuration list for PBXProject "ChallengeDayiOS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD5AEE7E1FE46AA100CD5A26;
+			productRefGroup = DD5AEE881FE46AA100CD5A26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD5AEE861FE46AA100CD5A26 /* ChallengeDayiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD5AEE851FE46AA100CD5A26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5AEE971FE46AA100CD5A26 /* LaunchScreen.storyboard in Resources */,
+				DD5AEE941FE46AA100CD5A26 /* Assets.xcassets in Resources */,
+				DD5AEE921FE46AA100CD5A26 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DD5AEEA01FE46F3F00CD5A26 /* Build Binary From Kotlin Sources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build Binary From Kotlin Sources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./gradlew -p $SRCROOT compileKonanApp";
+		};
+		DD5AEEA11FE46FBA00CD5A26 /* Remove Original Binary */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Remove Original Binary";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "rm -f \"$TARGET_BUILD_DIR/$EXECUTABLE_PATH\"";
+		};
+		DD5AEEA21FE46FE700CD5A26 /* Replace Binary */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Replace Binary";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp \"$SRCROOT/build/konan/bin/iphone/app.kexe\" \"$TARGET_BUILD_DIR/$EXECUTABLE_PATH\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD5AEE831FE46AA100CD5A26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5AEE8F1FE46AA100CD5A26 /* ViewController.m in Sources */,
+				DD5AEE9A1FE46AA100CD5A26 /* main.m in Sources */,
+				DD5AEE8C1FE46AA100CD5A26 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD5AEE901FE46AA100CD5A26 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD5AEE911FE46AA100CD5A26 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD5AEE951FE46AA100CD5A26 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD5AEE961FE46AA100CD5A26 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD5AEE9B1FE46AA100CD5A26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DD5AEE9C1FE46AA100CD5A26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD5AEE9E1FE46AA100CD5A26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7P643KTU9T;
+				INFOPLIST_FILE = ChallengeDayiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wayfair.ChallengeDayiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD5AEE9F1FE46AA100CD5A26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7P643KTU9T;
+				INFOPLIST_FILE = ChallengeDayiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wayfair.ChallengeDayiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD5AEE821FE46AA100CD5A26 /* Build configuration list for PBXProject "ChallengeDayiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD5AEE9B1FE46AA100CD5A26 /* Debug */,
+				DD5AEE9C1FE46AA100CD5A26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD5AEE9D1FE46AA100CD5A26 /* Build configuration list for PBXNativeTarget "ChallengeDayiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD5AEE9E1FE46AA100CD5A26 /* Debug */,
+				DD5AEE9F1FE46AA100CD5A26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD5AEE7F1FE46AA100CD5A26 /* Project object */;
+}
